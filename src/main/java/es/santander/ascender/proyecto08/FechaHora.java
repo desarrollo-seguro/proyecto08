@@ -1,7 +1,15 @@
 package es.santander.ascender.proyecto08;
 
-public class FechaHora {
-    public String dameActualConZonaHoraria() {
-        throw new UnsupportedOperationException();
+public class FechaHora implements DateTimeWithTimeZone {
+    @Override
+    public String getActual() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getActual'");
+    }
+
+    @Override
+    public int getDayOfTheWeek() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDayOfTheWeek'");
     }
 }
