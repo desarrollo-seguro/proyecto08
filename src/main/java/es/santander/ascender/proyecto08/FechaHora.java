@@ -29,4 +29,11 @@ public class FechaHora implements DatesWithTimeZone {
         return 0;
     }
 
+    @Override
+    public DiaSemana getRandomDiaSemana() {
+        // Esto es un ejemplo de tenerlo como número
+        int valorNumerico = DiaSemana.DOMINGO.ordinal();
+        return DiaSemana.DOMINGO;
+    }
+
 }

@@ -19,6 +19,8 @@ public class BattleRoyalTest {
         } else {
             resultado = a.getDateTimeWithTimeZone();
         }
+
+        a.getRandomDiaSemana();
     }
 
 }

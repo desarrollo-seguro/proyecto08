@@ -4,4 +4,7 @@ public interface DatesWithTimeZone {
 
     public abstract String getDateTimeWithTimeZone();
     public abstract int getDayOfWeek();
+
+    public abstract DiaSemana getRandomDiaSemana();
+
 }

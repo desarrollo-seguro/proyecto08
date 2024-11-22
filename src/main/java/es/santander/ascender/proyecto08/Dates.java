@@ -1,5 +1,7 @@
 package es.santander.ascender.proyecto08;
 
+import static es.santander.ascender.proyecto08.DiaSemana.SABADO;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -39,5 +41,10 @@ public class Dates implements DatesWithTimeZone {
 
     public String otroMetodo() {
         return null;
+    }
+
+    @Override
+    public DiaSemana getRandomDiaSemana() {
+        return SABADO;
     }
 }
