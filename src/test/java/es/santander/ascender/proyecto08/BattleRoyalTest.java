@@ -1,21 +1,23 @@
 package es.santander.ascender.proyecto08;
 
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
 import org.junit.jupiter.api.Test;
 
 public class BattleRoyalTest {
 
     @Test
     public void testExecuteDeleteMe() {
-        DateTimeWithTimeZone a;
+        DatesWithTimeZone a;
 
         a = new Dates();
         a = new FechaHora();
         
         String resultado;
         if (a instanceof Dates) {
-             resultado = a.getActual();
+             resultado = a.getDateTimeWithTimeZone();
         } else {
-            resultado = a.getActual();
+            resultado = a.getDateTimeWithTimeZone();
         }
     }
 

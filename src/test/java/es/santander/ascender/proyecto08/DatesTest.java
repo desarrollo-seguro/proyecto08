@@ -1,6 +1,7 @@
 package es.santander.ascender.proyecto08;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +25,9 @@ public class DatesTest {
     void testGetDayOfWeek() {
         int diaSemana = cut.getDayOfWeek();
         
-        assertEquals(3, diaSemana);
+        // Este test no sería correcto, puesto que solo funcionaría los miércoles
+        //assertEquals(3, diaSemana);
+        assertTrue(diaSemana >= 1 && diaSemana <= 7);
         System.out.println(diaSemana);
     }
 }
